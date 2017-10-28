@@ -19,42 +19,42 @@ https://github.com/Sen2Agri/Sen2Agri-System - link to project source code.
 ### Materials (data sources)
 1. The main data source we were using was the archive of spreadsheets and shapefiles shared with us by the representatives of the private agricultural companies we’ve met at the conference “AgroTalks Day” in Kyiv, Ukraine. 
 
- * 5 years data.
- * 160 fields in Odesa region with identification of crop types.
- * Weekly measured NDVI values.
- * Annual yields for each field.
+	* 5 years data.
+	* 160 fields in Odesa region with identification of crop types.
+	* Weekly measured NDVI values.
+	* Annual yields for each field.
 
 2. Data on the drone flights received from the MegaDrone company.
 
- * 7 flights performed during the blossom season in 2016.
- * 350 drone pictures merged into orthophoto with the help of DroneDeploy.
+	* 7 flights performed during the blossom season in 2016.
+	* 350 drone pictures merged into orthophoto with the help of DroneDeploy.
 
 3. [Land Parcel Identification System (LPIS)](http://eagri.cz/public/app/eagriapp/lpisdata/). This is the European system for agricultural monitoring created as common agricultural policy for Europe. We explored database of the shape files for Czech republic.
 
- * Geo-location of parcels with the identification of the crops.
- * Crop size and parcel area.
- * 150 000 of shape files.
+	* Geo-location of parcels with the identification of the crops.
+	* Crop size and parcel area.
+	* 150 000 of shape files.
 
 4. [NOAA STAR](https://www.star.nesdis.noaa.gov/smcd/emb/vci/VH/vh_browse.php). Service that provides global vegetation health products (NDVI, VHI, etc). It could be downloaded in netcdf nc format that contains average value from NDVI in square of size 4 by 4 km.
 
- * Weekly updated data.
- * Resolution: 4 km per pixel.
- * Produces more than 2 GB of data annually since 1981.
+	* Weekly updated data.
+	* Resolution: 4 km per pixel.
+	* Produces more than 2 GB of data annually since 1981.
 
 5. [Global Surface Summary of the Day](ftp://ftp.ncdc.noaa.gov/pub/data/gsod). Data on weather conditions derived daily from the global data obtained from the USAF Climatology Center.
 
- * Up to 20 relevant weather conditions gathered daily.
+	* Up to 20 relevant weather conditions gathered daily.
 
 6. [Planet.com](https://www.planet.com/products/planet-imagery/) is designing, building, launching satellites and providing satellite imagery. Operating in near-real time.
 
- * Imagery archive dating back to 2009 (daily data).
- * 300M km2/day.
- * 3m per pixel resolution.
+	* Imagery archive dating back to 2009 (daily data).
+	* 300M km2/day.
+	* 3m per pixel resolution.
 
 7. State Statistics Service of Ukraine. This is national ministry of Ukraine that record statistics. They provided us with the annual data for different agricultures grouped by regions of the country.
 
 8. Ukraine cadaster
- * Rejected our query for the data.
+	* Rejected our query for the data.
 
 ### Methods
 * Computing the correlation between different features and the target value of yields per field, using Pearson correlation coefficient, Spearman’s rank correlation coefficient, calculating the p-value.
@@ -74,19 +74,19 @@ We would like to thank our teacher Oleksandr Romanko, UCU, organizers of the “
 We are the students of the Master's Program in Data Science at the Ukrainian Catholic University (UCU) in Lviv, Ukraine.
 
 * Ivan Ilnytskyi
- * <ilnytskyi@ucu.edu.ua>
+	* <ilnytskyi@ucu.edu.ua>
 * Yuriy Kaminskyi
 	* <kaminskyi@ucu.edu.ua>
 	* [https://www.linkedin.com/in/ykaminskyi/](https://www.linkedin.com/in/ykaminskyi/)
 * Tetiana Martyniuk
- * <t.martynyuk@ucu.edu.ua>
- * [https://www.linkedin.com/in/tetiana-martyniuk-96b866146/](https://www.linkedin.com/in/tetiana-martyniuk-96b866146/)
+	* <t.martynyuk@ucu.edu.ua>
+	* [https://www.linkedin.com/in/tetiana-martyniuk-96b866146/](https://www.linkedin.com/in/tetiana-martyniuk-96b866146/)
 * Yuriy Pryima
- * <y.pryima@ucu.edu.ua>
- * [https://ua.linkedin.com/in/yuriy-priyma-4a719395](https://ua.linkedin.com/in/yuriy-priyma-4a719395)
+	* <y.pryima@ucu.edu.ua>
+	* [https://ua.linkedin.com/in/yuriy-priyma-4a719395](https://ua.linkedin.com/in/yuriy-priyma-4a719395)
 * Oleksandr Zaytsev
- * <oleks@ucu.edu.ua>
- * [https://www.linkedin.com/in/-oleks/](https://www.linkedin.com/in/-oleks/)
+	* <oleks@ucu.edu.ua>
+	* [https://www.linkedin.com/in/-oleks/](https://www.linkedin.com/in/-oleks/)
 * Kateryna Zorina
- * <zorina@ucu.edu.ua>
- * [https://www.linkedin.com/in/katerina-zorina-a2217012a/](https://www.linkedin.com/in/katerina-zorina-a2217012a/)
+	* <zorina@ucu.edu.ua>
+	* [https://www.linkedin.com/in/katerina-zorina-a2217012a/](https://www.linkedin.com/in/katerina-zorina-a2217012a/)
