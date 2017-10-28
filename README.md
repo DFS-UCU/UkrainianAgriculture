@@ -10,7 +10,7 @@ The mentioned inefficiency could be dealt with if this sector was driven by all 
 
 ## Similar research
 1. [Sen2Agri](http://www.esa-sen2agri.org/) is the Sentinel-2 for Agriculture system; it is designed to automatically generate key products for agriculture monitoring, based on Sentinel-2 and Landsat-8 data. They use ensembles of sophisticated techniques, including computer vision and normalized vegetation indices for labeling the crop lands.
-https://github.com/Sen2Agri/Sen2Agri-System - link to project source code.
+[Sen2Agri source code](https://github.com/Sen2Agri/Sen2Agri-System).
 2. [Cropio](https://about.cropio.com/) is a satellite field management system that facilitates remote monitoring of agricultural land. The System provides real-time updates on current field and crop conditions, determines vegetation levels and identifies problem areas, delivers precise weather forecasts.
 3. Geosys is the company that uses images produced by Landsat 8 and Sentinel 2 satellites. Moreover, they also use images from the private satellites and other suppliers of the scientific data. 
 4. [Descartes Labs](https://www.descarteslabs.com/) uses satellite imagery to model complex systems on the planet, like forestry and agriculture. They process data flows from all the major satellite constellations at scale to provide instant access to analysis-ready images of the entire world in a massive, searchable, on-demand interface.
